@@ -31,7 +31,7 @@ from ChampuMusic.utils.database import (
 
 
 @app.on_message(
-    filters.command(["stop", "end", "cstop", "cend"]) & filters.group & ~BANNED_USERS
+    filters.command(["bitir", "end", "bitir", "cend"]) & filters.group & ~BANNED_USERS
 )
 async def stop_music(cli, message: Message):
     if await is_maintenance() is False:
