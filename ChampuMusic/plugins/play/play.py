@@ -39,6 +39,8 @@ SPAM_THRESHOLD = 2
     filters.command(
         [
             "play",
+            "oynat",
+            "voynat",
             "vplay",
             "cplay",
             "cvplay",
